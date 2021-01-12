@@ -9,3 +9,25 @@ function printQuestionMarks(num) {
     }
     return arr.toString();
 };
+
+// Convert object key/value pairs to SQL syntax
+function objToSql(ob) {
+    var arr = [];
+  
+    // Loop through the keys and push the key/value pair as a string int arr
+    for (var key in ob) {
+      var value = ob[key];
+      // Check to skip hidden properties
+      if (Object.hasOwnProperty.call(ob, key)) {
+        // If string with spaces, add quotations
+        if (typeof value === "string" && value.indexOf(" ") >= 0) {
+          value = "'" + value + "'";
+        }
+        // e.g. {name: 'Lana Del Grey'} => ["name='Lana Del Grey'"]
+        // e.g. {sleepy: true} => ["sleepy=true"]
+        arr.push(key + "=" + value);
+      }
+    }
+    // Translate array of strings to a single comma-separated string
+    return arr.toString();
+};
