@@ -7,3 +7,12 @@
         {{/unless}}
     {{/each}}
 </ul>
+    
+<h2>Devoured</h2>
+    {{#each burger_flavor}}
+        {{#if this.devoured}}
+            <ul>
+                {{this.id}}. {{this.burger_name}}
+            </ul>
+        {{/if}}
+    {{/each}}
