@@ -1,7 +1,8 @@
 <div class="container">
-    <h1>Eat Da Burger!</h1>
-    <img src="/assets/img/burger-151421.png" width="200px" alt="burger">
-    
+    <header class="text-center">
+        <h1>Eat Da Burger!</h1>
+        <img src="/assets/img/burger-151421.png" width="200px" alt="burger">
+    </header>
     {{#each burger_flavor}}
         {{#unless this.devoured}}
             {{this.id}}. {{this.burger_name}}
