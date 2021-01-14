@@ -4,6 +4,11 @@ body {
   
 h1 {
   color: rgb(252, 50, 0);
+  margin-top: 20px;
+}
+
+h2 {
+  margin-top: 20px;
 }
   
 #input-section {
