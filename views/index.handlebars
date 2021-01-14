@@ -8,7 +8,7 @@
             <h2>Burger Cravings</h2>
             {{#each burger_flavor}}
                 {{#unless this.devoured}}
-                    <div class="form-row align-items-center">
+                    <div class="form-row align-items-center not-devoured">
                         {{this.id}}. {{this.burger_name}}
                         <div class="col-auto my-1">
                             <form class="eat-list">
