@@ -5,6 +5,7 @@
         {{#unless this.devoured}}
             {{this.id}}. {{this.burger_name}}
             <form class="eat-list">
+            <button type="submit" value={{this.id}} class="btn_id">Devour it!</button>
             </form>
         {{/unless}}
     {{/each}}
