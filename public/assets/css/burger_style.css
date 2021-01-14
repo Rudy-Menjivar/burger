@@ -1,8 +1,14 @@
 body {
-    background-color: rgb(235, 197, 122);
-  }
+  background-color: rgb(235, 197, 122);
+}
   
-  h1 {
-    color: rgb(252, 50, 0);
-  }
+h1 {
+  color: rgb(252, 50, 0);
+}
   
+#input-section {
+  width: 450px;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 5px;
+}
