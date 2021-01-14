@@ -7,10 +7,14 @@
         <div class="col-md-6">
         {{#each burger_flavor}}
             {{#unless this.devoured}}
-                {{this.id}}. {{this.burger_name}}
-                <form class="eat-list">
-                <button type="submit" value={{this.id}} class="btn_id">Devour it!</button>
-                </form>
+                <div class="form-row align-items-center">
+                    {{this.id}}. {{this.burger_name}}
+                    <div class="col-auto my-1">
+                        <form class="eat-list">
+                            <button type="submit" value={{this.id}} class="btn_id form-control">Devour it!</button>
+                        </form>
+                    </div>
+                </div>
             {{/unless}}
         {{/each}}
         </div>
