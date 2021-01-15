@@ -5,7 +5,7 @@
     
 This project assignment involves creating a burger logging application, which prompts the user to enter a burger name they'd like to eat. Afterwards, simply confirm when it's been devoured with a click of a button.
 
-This application lives on the cloud as it's hosted via Heroku's database, and it uses the following technologies:
+This application lives on the cloud as it's hosted with the <a href="https://enigmatic-sands-84327.herokuapp.com/" target="_blank">Heroku platform</a>, and it uses the following technologies:
 * MySQL
 * Node
 * Express
@@ -18,6 +18,8 @@ This application lives on the cloud as it's hosted via Heroku's database, and it
 ## Content
 
 * [GitHub Repository](https://github.com/Rudy-Menjivar/burger/)
+
+* <a href="https://enigmatic-sands-84327.herokuapp.com/" target="_blank">Eat Da Burger! (site)</a>
 
 * [Installation](#installation)
 
@@ -67,9 +69,10 @@ To participate in this project, please review the following guidelines:
 4. Push your changes with your remote branch name
     
    `git push -u origin <branchName>`
-    
 
-5. Finally, submit [feature requests and bugs](https://github.com/Rudy Menjivar/burger/issues) and open a [pull request](https://github.com/Rudy Menjivar/burger/pulls)
+5. Then add or choose the <a href="https://github.com/Rudy-Menjivar/burger/issues" target="_blank">feature requests or bug</a> that corresponds with your update 
+
+6. Finally, open the generated <a href="https://github.com/Rudy-Menjivar/burger/pulls" target="_blank">pull request</a> so it can be reviewed and approved for merging with the primary branch
   
 
 ## License
