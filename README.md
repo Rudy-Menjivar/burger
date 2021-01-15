@@ -19,7 +19,7 @@ This application lives on the cloud as it's hosted with the <a href="https://eni
 
 * [GitHub Repository](https://github.com/Rudy-Menjivar/burger/)
 
-* <a href="https://enigmatic-sands-84327.herokuapp.com/" target="_blank">Eat Da Burger! (site)</a>
+* <a href="https://enigmatic-sands-84327.herokuapp.com/" target="_blank" rel="noopener noreferrer">Eat Da Burger! (site)</a>
 
 * [Installation](#installation)
 
